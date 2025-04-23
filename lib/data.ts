@@ -95,3 +95,67 @@ export const MY_STACK = {
         },
     ],
 };
+
+export const PROJECTS: IProject[] = [
+    {
+        title: 'Akriti Precision Systems',
+        slug: 'akriti-precision-systems',
+        liveUrl: 'https://akriti-precision.vercel.app/',
+        year: 2025,
+        description: `
+      A comprehensive web platform built for Akriti Precision Systems to present their cutting-edge engineering solutions, detailed service offerings, and industrial-grade product lineup. <br/><br/>
+      
+      Key Features:<br/>
+      <ul>
+        <li>🔧 Engineering Solutions Showcase: Visually engaging breakdown of core services</li>
+        <li>📘 Knowledge Base: Informative content modules on precision engineering</li>
+        <li>📦 Product Listings: Categorized product display with specs and filtering</li>
+        <li>📱 Mobile-Optimized: Fully responsive across all modern devices</li>
+        <li>🚀 High-Speed Experience: Next.js performance optimizations using ISR</li>
+      </ul><br/>
+    
+      Technical Highlights:
+      <ul>
+        <li>Developed a dynamic filtering system for product exploration</li>
+        <li>Customized Payload CMS setup for seamless content and product management</li>
+        <li>Built responsive, consistent UI components using shadcn and Tailwind</li>
+        <li>Implemented secure and efficient API integration for real-time updates</li>
+      </ul>
+      `,
+        role: `
+      Full-Stack Developer <br/>
+      Led the end-to-end development process:
+      <ul>
+        <li>✅ Backend: Structured Payload CMS with custom models for services, knowledge base, and product specs</li>
+        <li>🎨 Frontend: Developed all UI layouts and animations with Tailwind CSS and shadcn</li>
+        <li>🔄 Data Handling: Efficient state and API management for smooth UX</li>
+        <li>🖥️ CMS Customization: Tailored admin panel with access control for editors</li>
+        <li>🚀 Deployment: Configured automated deployments and hosting on Vercel</li>
+        <li>🔌 Integration: Added external libraries for performance monitoring and analytics</li>
+      </ul>
+      `,
+        techStack: [
+            'Next.js',
+            'Tailwind CSS',
+            'Typescript',
+            'Three.js',
+            'Supabase',
+            'Vercel',
+        ],
+        thumbnail: '/projects/thumbnail/akriti-precision.webp',
+        longThumbnail: '/projects/long/akriti-precision.webp',
+        images: [
+            '/projects/images/akriti-precision-1.webp',
+            '/projects/images/akriti-precision-2.webp',
+        ],
+    }
+    
+];
+
+export const MY_EXPERIENCE = [
+    {
+        title: 'Software Engineer (Fullstack)',
+        company: 'Akriti Precisio Systems',
+        duration: 'Mar 2025 - Present',
+    },
+];
