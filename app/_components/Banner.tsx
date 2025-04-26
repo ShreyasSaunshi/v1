@@ -1,4 +1,5 @@
 'use client';
+
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
 import { GENERAL_INFO } from '@/lib/data';
@@ -6,6 +7,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation'; // <-- ADD THIS
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -40,10 +42,25 @@ const Banner = () => {
                 ref={containerRef}
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
+                    {/* Updated Heading */}
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary text-5xl">CYBERSECURITY ANALYST,</span>
-                        <br /> <span className="ml-4 text-5xl">FULLSTACK DEVELOPER</span>
+                        <TypeAnimation
+                            sequence={[
+                                'Cyber Security Analyst,',
+                                2000,
+                                'Full-stack Developer,',
+                                2000,
+                                'Freelancer,',
+                                2000,
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            repeat={Infinity}
+                            className="text-primary text-5xl"
+                        />
                     </h1>
+
+                    {/* Description */}
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
@@ -51,6 +68,8 @@ const Banner = () => {
                         </span>
                         . A creative Full Stack Developer and Cyber Security Researcher with years of experience in developing and securing high-performance, scalable, and responsive web applications.
                     </p>
+
+                    {/* Hire Me Button */}
                     <Button
                         as="link"
                         target="_blank"
@@ -63,6 +82,7 @@ const Banner = () => {
                     </Button>
                 </div>
 
+                {/* Side Stats */}
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
@@ -84,7 +104,9 @@ const Banner = () => {
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
                             4k+
                         </h5>
-                        <p className="text-muted-foreground">Hours Worked</p>
+                        <p className="text-muted-foreground">
+                            Hours Worked
+                        </p>
                     </div>
                 </div>
             </div>
