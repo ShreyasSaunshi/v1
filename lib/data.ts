@@ -361,7 +361,7 @@ export const PROJECTS: IProject[] = [
 
     Technical Highlights:
     <ul>
-      <li>Developed in Python using `socket`, `smbprotocol`, and `argparse` libraries</li>
+      <li>Developed in Python using socket, smbprotocol, and argparse libraries</li>
       <li>Dockerized the tool for consistent deployment across environments</li>
       <li>Integrated Git for version control and community contributions</li>
       <li>Tested on Kali Linux with standard tools for offensive security tasks</li>
