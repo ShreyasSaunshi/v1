@@ -154,8 +154,28 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Fullstack)',
-        company: 'Akriti Precisio Systems',
+        title: 'Software Engineering Intern (Fullstack)',
+        company: 'Akriti Precision Systems',
         duration: 'Mar 2025 - Present',
+    },
+    {
+        title: 'CTF Player',
+        company: 'Try Hack Me',
+        duration: 'May 2021 - Present',
+    },
+    {
+        title: 'Research Intern,
+        company: 'ICMR',
+        duration: 'Feb 2023 - Mar 2023',
+    },
+    {
+        title: 'Defense Hacker Intern,
+        company: 'Illinois Institute of Technology,
+        duration: 'Nov 2022 - Jan 2023',
+    },
+    {
+        title: 'Freelancer',
+        company: 'Upwork',
+        duration: 'Aug 2021 - Dec 2023',
     },
 ];
