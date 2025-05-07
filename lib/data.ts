@@ -164,13 +164,13 @@ export const MY_EXPERIENCE = [
         duration: 'May 2021 - Present',
     },
     {
-        title: 'Research Intern,
+        title: 'Research Intern',
         company: 'ICMR',
         duration: 'Feb 2023 - Mar 2023',
     },
     {
-        title: 'Defense Hacker Intern,
-        company: 'Illinois Institute of Technology,
+        title: 'Defense Hacker Intern',
+        company: 'Illinois Institute of Technology',
         duration: 'Nov 2022 - Jan 2023',
     },
     {
