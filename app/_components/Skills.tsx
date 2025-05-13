@@ -60,10 +60,10 @@ const Skills = () => {
     return (
         <section id="my-stack" ref={containerRef}>
             <div className="container">
-                <SectionTitle title="My Stack" />
+                <SectionTitle title="My Skills" />
 
                 <div className="space-y-20">
-                    {Object.entries(MY_STACK).map(([key, value]) => (
+                    {Object.entries(MY_SKILLS).map(([key, value]) => (
                         <div className="grid sm:grid-cols-12" key={key}>
                             <div className="sm:col-span-5">
                                 <p className="slide-up text-5xl font-anton leading-none text-muted-foreground uppercase">
@@ -102,10 +102,10 @@ const Skills = () => {
     return (
         <section id="my-stack" ref={containerRef}>
             <div className="container">
-                <SectionTitle title="My Stack" />
+                <SectionTitle title="My Skills" />
 
                 <div className="space-y-20">
-                    {Object.entries(MY_STACK).map(([key, value]) => (
+                    {Object.entries(MY_SKILLS).map(([key, value]) => (
                         <div className="grid sm:grid-cols-12" key={key}>
                             <div className="sm:col-span-5">
                                 <p className="slide-up text-5xl font-anton leading-none text-muted-foreground uppercase">
