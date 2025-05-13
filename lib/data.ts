@@ -13,7 +13,87 @@ export const SOCIAL_LINKS = [
     { name: 'instagram', url: 'https://www.instagram.com/shreyassaunshi' },
 ];
 
-export const MY_STACK = {
+export const MY_SKILLS = {
+    core: [
+        {
+            name: 'Kali Linux',
+            icon: '/logo/kali.png',
+        },
+        {
+            name: 'Metasploit',
+            icon: '/logo/metasploit.png',
+        },
+        {
+            name: 'Burp Suite',
+            icon: '/logo/burp.png',
+        },
+        {
+            name: 'Nmap',
+            icon: '/logo/nmap.png',
+        },
+        {
+            name: 'Wireshark',
+            icon: '/logo/wireshark.png',
+        },
+        {
+            name: 'John the Ripper',
+            icon: '/logo/john.png',
+        },
+        {
+            name: 'Aircrack-ng',
+            icon: '/logo/aircrack.png',
+        },
+        {
+            name: 'Cobalt Strike',
+            icon: '/logo/cobalt-strike.png',
+        },
+        {
+            name: 'Empire',
+            icon: '/logo/empire.png',
+        },
+        {
+            name: 'BloodHound',
+            icon: '/logo/bloodhound.png',
+        },
+        {
+            name: 'Netcat',
+            icon: '/logo/netcat.png',
+        },
+    ],
+    techniques: [
+        {
+            name: 'Penetration Testing',
+            icon: '/logo/penetration-testing.png',
+        },
+        {
+            name: 'Buffer overflow',
+            icon: '/logo/penetration-testing.png',
+        },
+        {
+            name: 'Privilege Escalation',
+            icon: '/logo/buffer-overflow.png',
+        },
+        {
+            name: 'Lateral Movement',
+            icon: '/logo/lateral-movement.png',
+        },
+        {
+            name: 'Exploit Development',
+            icon: '/logo/exploit-development.png',
+        },
+        {
+            name: 'Social Engineering',
+            icon: '/logo/social-engineering.png',
+        },
+        {
+            name: 'Malware Analysis',
+            icon: '/logo/malware-analysis.png',
+        },
+        {
+            name: 'Physical Security Assessment',
+            icon: '/logo/physical-security.png',
+        },
+    ],
     frontend: [
         {
             name: 'Javascript',
