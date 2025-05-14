@@ -42,35 +42,32 @@ This portfolio includes:
 ## 📦 Installation Instructions
 
 1. Clone this repository:
-```bash
-git clone https://github.com/shreyassaunshi/v1.git
-cd v1
-```
+  ```bash
+  git clone https://github.com/shreyassaunshi/v1.git
+  cd v1
+  ```
 2. Install Dependencies
 
-Using npm:
+  Using npm:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
+  Or with yarn:
 
-Or with yarn:
-
-```bash
-yarn install
-```
+    ```bash
+    yarn install
+    ```
 
 3. Start Development Server
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
 Open your browser at [http://localhost:3000](http://localhost:3000) to see the running app.
 
@@ -119,4 +116,4 @@ Contributions are welcome! Here’s how you can help:
 Need help or have a feature request?
 
 📧 Email: shreyassaunshi@protonmail.com
-🌐 Website: [shreyassaunshi(http://www.shreyassaunshi.vercel.app)
+🌐 Website: [shreyassaunshi(http://www.shreyassaunshi.vercel.app)]
