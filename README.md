@@ -50,24 +50,21 @@ This portfolio includes:
 
   Using npm:
 
-    ```bash
-    npm install
-    ```
-  Or with yarn:
-
-    ```bash
-    yarn install
-    ```
+  ```bash
+  npm install
+  # or
+  yarn install
+  ```
 
 3. Start Development Server
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  ```
 
 Open your browser at [http://localhost:3000](http://localhost:3000) to see the running app.
 
@@ -115,5 +112,5 @@ Contributions are welcome! Here’s how you can help:
 📬 **Support**
 Need help or have a feature request?
 
-📧 Email: shreyassaunshi@protonmail.com
-🌐 Website: [shreyassaunshi(http://www.shreyassaunshi.vercel.app)]
+📧 Email: shreyassaunshi@protonmail.com.
+🌐 Website: [shreyassaunshi](http://www.shreyassaunshi.vercel.app)
