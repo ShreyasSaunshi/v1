@@ -46,7 +46,15 @@ const Banner = () => {
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
                         <TypeAnimation
                             sequence={[
-                                'Cyber Security Analyst,',
+                                'Security Engineer,',
+                                2000,
+                                'SOC Analyst,',
+                                2000,
+                                'Bug Bounty Hunter,',
+                                2000,
+                                'Programmer,',
+                                2000,
+                                'Software Developer,',
                                 2000,
                                 'Full-stack Developer,',
                                 2000,
@@ -66,7 +74,7 @@ const Banner = () => {
                         <span className="font-medium text-foreground">
                             Shreyas
                         </span>
-                        . A creative Full Stack Developer and Cyber Security Researcher with years of experience in developing and securing high-performance, scalable, and responsive web applications.
+                        . A creative Cyber Security Professional and Software Developer with years of experience in securing and developing high-performance, scalable, and responsive applications.
                     </p>
 
                     {/* Hire Me Button */}
@@ -74,7 +82,7 @@ const Banner = () => {
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={`https://mail.google.com/mail/?view=cm&fs=1&to=${GENERAL_INFO.email}&su=${GENERAL_INFO.emailSubject}&body=${GENERAL_INFO.emailBody}`}
+                        href="https://www.upwork.com/freelancers/shreyass"
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
