@@ -1,4 +1,4 @@
-# 🚀 Personal Portfolio Website
+# 🛠 Personal Portfolio Website
 
 This is a **Next.js** project built to showcase my skills, projects, blogs, and CTF write-ups. The portfolio includes a clean UI, admin panel, and dynamic sections for continuous updates.
 
@@ -47,9 +47,6 @@ This portfolio includes:
   cd v1
   ```
 2. Install Dependencies
-
-  Using npm:
-
   ```bash
   npm install
   # or
@@ -57,7 +54,6 @@ This portfolio includes:
   ```
 
 3. Start Development Server
-
   ```bash
   npm run dev
   # or
@@ -77,18 +73,6 @@ You can deploy this app using the button below:
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
 
 Refer to the official [deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for more options.
-
-## ✏️ **Customization**
-- 📁 `/components/`: Contains reusable UI components like buttons, card layouts, etc.
-- 🖼 `/public/images/`: All portfolio media, including project screenshots and profile images
-- 📝 `/pages/`: Static content pages like About, Projects, Blog, Contact, Resume
-- 📄 `/styles/`: Custom CSS styles if needed for specific adjustments
-
-## 🧪 **Development Notes**
-- The contact form is linked to an email service provider (configure in `.env` file).
-- The project and blog content is dynamically loaded using JSON or a headless CMS (adjust based on implementation).
-- Resume download functionality is available through a static link to a PDF file hosted in the public folder.
-- Blog articles can be added via the `blog.json` file or integrated with a CMS for easier content management.
 
 ## 📄 **License**
 This project is licensed under the MIT License. You may use and modify it freely for personal or commercial purposes.
@@ -112,5 +96,5 @@ Contributions are welcome! Here’s how you can help:
 📬 **Support**
 Need help or have a feature request?
 
-📧 Email: shreyassaunshi@protonmail.com.
-🌐 Website: [shreyassaunshi](http://www.shreyassaunshi.vercel.app)
+- 📧 Email: shreyassaunshi@protonmail.com
+- 🌐 Website: [shreyassaunshi](http://www.shreyassaunshi.vercel.app)
