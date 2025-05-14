@@ -42,10 +42,10 @@ This portfolio includes:
 ## 📦 Installation Instructions
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/shreyassaunshi/v1.git
-   cd v1
-
+```bash
+git clone https://github.com/shreyassaunshi/v1.git
+cd v1
+```
 2. Install Dependencies
 
 Using npm:
@@ -84,22 +84,22 @@ You can deploy this app using the button below:
 
 Refer to the official [deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for more options.
 
-✏️ **Customization**
+## ✏️ **Customization**
 - 📁 `/components/`: Contains reusable UI components like buttons, card layouts, etc.
 - 🖼 `/public/images/`: All portfolio media, including project screenshots and profile images
 - 📝 `/pages/`: Static content pages like About, Projects, Blog, Contact, Resume
 - 📄 `/styles/`: Custom CSS styles if needed for specific adjustments
 
-🧪 **Development Notes**
+## 🧪 **Development Notes**
 - The contact form is linked to an email service provider (configure in `.env` file).
 - The project and blog content is dynamically loaded using JSON or a headless CMS (adjust based on implementation).
 - Resume download functionality is available through a static link to a PDF file hosted in the public folder.
 - Blog articles can be added via the `blog.json` file or integrated with a CMS for easier content management.
 
-📄 **License**
+## 📄 **License**
 This project is licensed under the MIT License. You may use and modify it freely for personal or commercial purposes.
 
-🧑‍💻 **Contribute**
+## 🧑‍💻 **Contribute**
 Contributions are welcome! Here’s how you can help:
 
 ### How to Contribute:
