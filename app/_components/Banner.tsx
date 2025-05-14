@@ -2,12 +2,11 @@
 
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
-import { GENERAL_INFO } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation'; // <-- ADD THIS
+import { TypeAnimation } from 'react-type-animation';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
